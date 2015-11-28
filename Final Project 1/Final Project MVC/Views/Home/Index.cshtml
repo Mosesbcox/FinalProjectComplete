@@ -1,0 +1,163 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>One Page Wonder - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="BootStrapSS.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS -->
+    <link href="StyleSheet.css" rel="stylesheet">
+
+
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Moses Cox</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden active">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#services">What I've Done</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <!--<header class="header-image"> -->
+    <div id="bigBoard">    
+    <div class="headline">
+            <div class="container">
+                <h1 id="marquee">Moses Cox</h1>
+                <h2 id="myTitle">Jr. Software Developer</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+            <img class="featurette-image img-square img-responsive pull-right" src="Content/pics/216.jpg"/>
+            <h2 class="featurette-heading">
+                My Name Is
+                <span id="changeCol" class="text-muted">Moses Bartholomew Cox</span>
+            </h2>
+            <p class="lead">I'm Moses-a 22 year old software developer with fresh ideas and a great attitude. I love
+            everything about computer programming, especially the debugging. Being able to find a problem and then fix it on my own is very exciting to me.
+            Even though I'm brand new to programming, I believe that I have as much love for it as somebody who has been programing for twenty years!</p>
+        
+            <br />
+            <br />
+            See more of my work on <a href="https://github.com/Mosesbcox" target="_blank"> GitHub</a>!
+
+        
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="services">
+            <img class="featurette-image img-square img-responsive pull-left resizeThis" src="Content/pics/words.jpg"/>
+            <h2 class="featurette-heading">
+                What I've
+                <span id="changeCol" class="text-muted">Accomplished</span>
+            </h2>
+            <p class="lead">Over the course of this bootcamp I have learned many different computer programming skills, such as: C#, HTML, MVC, and ASP.net to name a few. 
+            I have also provided a link below where you can check out some of the creations I have put together.</p>
+           <div class="biggie">@Html.ActionLink("Click Here To View My Work", "Index", "ProjectHolders")</div>
+        </div>
+        <br />
+        <br />
+        <div>
+           
+        </div>
+
+
+            <hr class="featurette-divider">
+
+            <!-- Third Featurette -->
+            <div class="featurette" id="contact">
+                <img class="featurette-image img-square img-responsive pull-right smallMe" src="Content/pics/moses.jpg" />
+                <h2 class="featurette-heading">
+                    You might be wondering
+                    <span id="changeCol" class="text-muted">how to contact me.</span>
+                </h2>
+                <p class="lead">If you have any questions please feel free to contact me via E-mail, at MosesBCox@gmail.com. I can also be reached on <a href="https://www.linkedin.com/in/mosescox" target="_blank"> LinkedIn</a>, or you can look at some of my work on <a href="https://github.com/Mosesbcox" target="_blank"> GitHub</a>!</p>
+            </div>
+
+
+
+
+
+        </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <hr />
+
+
+    
+    <footer>
+    <br />
+    <br />
+    <br />
+    &copy; Moses Cox Inc.</footer>
+
+</body>
+</html>

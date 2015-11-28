@@ -1,0 +1,58 @@
+﻿@model Final_Project_MVC.Models.ProjectHolder
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ProjectHolder</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Screenshot)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Screenshot)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LinkToRepository)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LinkToRepository)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LanguagesUsed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LanguagesUsed)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

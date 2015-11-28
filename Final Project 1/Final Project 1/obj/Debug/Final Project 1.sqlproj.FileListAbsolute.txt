@@ -1,0 +1,5 @@
+C:\Users\wecancodeit\Documents\Visual Studios Projects\Final Project 1\Final Project 1\bin\Debug\Final Project 1.dacpac
+C:\Users\wecancodeit\Documents\Visual Studios Projects\Final Project 1\Final Project 1\bin\Debug\Final_Project_1.dll
+C:\Users\wecancodeit\Documents\Visual Studios Projects\Final Project 1\Final Project 1\bin\Debug\Final_Project_1.pdb
+C:\Users\wecancodeit\Documents\Visual Studios Projects\Final Project 1\Final Project 1\obj\Debug\Final_Project_1.dll
+C:\Users\wecancodeit\Documents\Visual Studios Projects\Final Project 1\Final Project 1\obj\Debug\Final_Project_1.pdb
